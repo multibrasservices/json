@@ -250,6 +250,10 @@ textarea#json-input {
     border-bottom: 3px solid var(--primary-color);
 }
 
+.view-content {
+    display: none;
+}
+
 .view-content.active {
     display: block;
 }
