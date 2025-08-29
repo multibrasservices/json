@@ -15,7 +15,7 @@ Un outil interactif et visuel pour apprendre, comprendre et déboguer le format 
 
 ## 🚀 Démo en Ligne
 
-Vous pouvez essayer l'application en direct ici : [**Lien vers votre GitHub Page**]([hhttps://multibrasservices.github.io/json/)
+Vous pouvez essayer l'application en direct ici : [**Lien vers votre GitHub Page**](https://multibrasservices.github.io/json/)
 
 *(N'oubliez pas de mettre à jour ce lien après le déploiement !)*
 
