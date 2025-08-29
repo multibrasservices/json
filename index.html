@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apprendre le JSON de façon Visuelle</title>
     <link rel="icon" href="mon_logo.png" type="image/png">
-    <link rel="stylesheet" href="Untitled-1.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
@@ -14,6 +14,10 @@
 
     <header>
         <div class="container">
+            <button id="theme-toggle" title="Changer de thème">
+                <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </button>
             <h1>Découvrez le JSON</h1>
             <p>Un outil interactif pour comprendre et visualiser le format de données JSON, une compétence clé dans le développement web.</p>
         </div>
@@ -133,7 +137,7 @@
             </ul>
 
             <h3>5. Validation JSON</h3>
-            <p>Pour vérifier la validité de votre JSON, utilisez des outils de validation en ligne (ex: <code>jsonlint.com</code>, <code>jsonformatter.org`). Ils vous aideront à identifier rapidement les erreurs de syntaxe.</p>
+            <p>Pour vérifier la validité de votre JSON, utilisez des outils de validation en ligne (ex: <a href="https://jsonlint.com/" target="_blank" rel="noopener noreferrer"><code>jsonlint.com</code></a>, <a href="https://jsonformatter.org/" target="_blank" rel="noopener noreferrer"><code>jsonformatter.org</code></a>). Ils vous aideront à identifier rapidement les erreurs de syntaxe.</p>
         </section>
 
         <!-- Visualiseur JSON interactif -->
@@ -147,7 +151,7 @@
                     <div class="editor-actions">
                         <button id="load-example-btn">Charger un exemple</button>
                         <label for="file-input" class="file-label">Importer un fichier</label>
-                        <input type="file" id="file-input" accept=".json">
+                        <input type="file" id="file-input" accept=".json" style="display: none;">
                         <button id="clear-btn">Effacer</button>
                     </div>
                 </div>
@@ -190,6 +194,6 @@
         </div>
     </footer>
 
-    <script src="document.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
